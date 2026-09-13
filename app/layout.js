@@ -2,7 +2,7 @@ import './globals.css';
 
 export const metadata = {
   title: 'Mini POS',
-  description: 'ระบบขายของร้านเล็ก',
+  description: 'ระบบขายของร้านเล็ก (Mini POS)',
 };
 
 export default function RootLayout({ children }) {
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
             <a href="/history">ประวัติการขาย</a>
           </nav>
         </header>
-        <main className="container">{children}</main>
+        <main className="main-container">{children}</main>
       </body>
     </html>
   );
